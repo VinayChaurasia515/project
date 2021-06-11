@@ -1,0 +1,11 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>date</servlet-name>
+		<servlet-class>com.vinay.servlet.dateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>date</servlet-name>
+		<url-pattern>/dateurl</url-pattern>
+	</servlet-mapping>
+</web-app>
